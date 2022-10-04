@@ -3,7 +3,6 @@ import { useLoaderData } from 'react-router-dom';
 
 const FriendDetails = () => {
     const friendDetails = useLoaderData();
-
     const { name, address, company, website, phone } = friendDetails;
     const { city, street, suite } = address;
     return (
